@@ -34,6 +34,8 @@ public class RNTextDetectorModule extends ReactContextBaseJavaModule {
     super(reactContext);
     this.reactContext = reactContext;
     try {
+        FirebaseApp.initializeApp(reactContext);
+
         detector = FirebaseVision.getInstance().getOnDeviceTextRecognizer();
     }
     catch (IllegalStateException e) {
