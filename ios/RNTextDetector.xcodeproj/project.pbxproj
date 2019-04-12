@@ -213,6 +213,7 @@
 					"$(SRCROOT)/../../../ios/Pods/FirebaseCore/Frameworks",
 					"$(SRCROOT)/../../../ios/**",
 					"${SRCROOT}/../../../ios/Pods/Headers/Public/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/FirebaseMLVision/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -222,6 +223,7 @@
 					"$(SRCROOT)/../../../ios/**",
 					"$(SRCROOT)/../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/FirebaseMLVision/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNTextDetector;
@@ -242,6 +244,7 @@
 					"$(SRCROOT)/../../../ios/Pods/FirebaseCore/Frameworks",
 					"$(SRCROOT)/../../../ios/**",
 					"${SRCROOT}/../../../ios/Pods/Headers/Public/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/FirebaseMLVision/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -251,6 +254,7 @@
 					"$(SRCROOT)/../../../ios/**",
 					"$(SRCROOT)/../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/FirebaseMLVision/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNTextDetector;
